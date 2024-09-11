@@ -190,25 +190,25 @@ import {
   
   const projects = [
     {
-      name: "Mini Facebook clone",
+      name: "Vacant.com",
       description:
-        "Web-based platform that allows users to sign-up, login, and chat with other users as well as Make post, Like post and comment.",
+        "Two interface website to help house seekers find vacant houses in their area using google map API",
       tags: [
         {
-          name: "SpringBoot",
+          name: "NodeJS",
           color: "blue-text-gradient",
         },
         {
-          name: "MySQL",
+          name: "PostreSQL",
           color: "green-text-gradient",
         },
         {
-          name: "Thymeleaf",
+          name: "React",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/Innocentsax/Spring_Boot3_Hibernate-JPA/tree/main/simple-form",
+      source_code_link: "https://github.com/MutisoMuli/vacant.com",
     },
     {
       name: "AirBnB Platform clone",
@@ -229,7 +229,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/Innocentsax/AirBnB_clone_v2",
+      source_code_link: "https://github.com/MutisoMuli/AirBnB_clone_v4",
     },
     {
       name: "Movie Review web Platform",
