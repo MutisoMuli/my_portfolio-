@@ -42,11 +42,11 @@ import {
   
   const services = [
     {
-      title: "Java Developer",
+      title: "JavaScript Developer",
       icon: web,
     },
     {
-      title: "Spring Boot Developer",
+      title: "NodeJs Developer",
       icon: mobile,
     },
     {
@@ -116,55 +116,47 @@ import {
   
   const experiences = [
     {
-      title: "C-Lang Developer",
-      company_name: "HOLBERTON SCHOOL",
-      icon: starbucks,
+      title: "Vacant.com",
+      company_name: "TWO INTERFACE WEBSITE TO HELP HOUSE SEEKERS FIND VACANT HOUSES IN THEIR AREA USING GOOGLE MAP API",
+      icon: tesla,
       iconBg: "#383E56",
-      date: "Nov 2022",
+      date: "AUGUST 2024",
       points: [
-        "Developing and maintaining Simple GUI Terminal (Simple shell) for Bash and Script writing, using C-Lang and other related technologies.",
-        "Collaborating with cross-functional teams globally to create a Unique `PRINTF function` which can be use by other Developers.",
-        // "Implementing responsive design and ensuring cross-browser compatibility.",
-        // "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed and implemented a dual-interface website for Vacant.com, leveraging the Google Maps API to enable house seekers to efficiently locate vacant properties in their desired areas. Developed a robust backend system using Node.js and express.js to handle real-time data processing and API integration, ensuring seamless user experience across both mobile and desktop platforms.",
+        "Spearheaded the development of an innovative geolocation-based search algorithm, significantly enhancing the accuracy and speed of property matching for users. Collaborated with a cross-functional team of designers and data scientists to create an intuitive user interface that simplifies complex property data into easily digestible visual formats, dramatically improving user engagement and satisfaction rates.",
       ],
     },
     {
-      title: "Python Developer",
-      company_name: "ALX-AFRICA",
+      title: "Royal gems",
+      company_name: "ROYAL GEMS IS A E-COMMERCE FOR A JEWEL SELLING SHOP LOCATED IN NAIROBI",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Nov 2022",
+      date: "MAY 2024",
       points: [
-        "Collaborative Problem-Solving: Collaborated closely with the data science team, showcasing strong teamwork and communication skills while architecting the solution and ensuring data integrity through comprehensive testing.",
-        // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design (AirBnB clone) and ensuring cross-browser compatibility.",
-        // "Participating in code reviews and providing constructive feedback to other developers.",
+        "Engineered and deployed a cutting-edge e-commerce platform for Royal Gems, a premier jewel retailer in Nairobi, utilizing React and Tailwind CSS to craft a visually stunning and highly responsive front-end interface. Leveraged Node.js and Express.js to develop a robust back-end architecture, ensuring seamless handling of user transactions, inventory management, and secure payment processing. Implemented PostgreSQL as the primary database solution, optimizing data storage and retrieval for enhanced performance and scalability.",
+        "Orchestrated the containerization of the entire application stack using Docker, significantly improving deployment efficiency and consistency across different environments. Designed and implemented a comprehensive RESTful API, facilitating smooth communication between the front-end and back-end systems, and enabling easy integration with third-party services for features such as shipping logistics and customer relationship management. This modern tech stack resulted in a 40% increase in website loading speed and a 25% boost in conversion rates within the first month of launch.",
       ],
     },
     {
-      title: "Java Developer",
-      company_name: "DECAGON",
-      icon: shopify,
+      title: "AirBnB Platform clone",
+      company_name: "WEB-BASED PLATFORM THAT ALLOWS USERS TO SEARCH, BOOK, AND MANAGE HOME RENTALS FROM VARIOUS PROVIDERS",
+      icon: tesla,
       iconBg: "#383E56",
-      date: "Jan 2023",
+      date: "APRIL 2024",
       points: [
-        "Wrote integration tests for all applications using JUnit/Mockito, significantly reducing customer complaints about bugs and application malfunctions..",
-        "Designed and built scalable APIs to increase development workflow by 25%",
-       // "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Spearheaded the development of a comprehensive AirBnB platform clone, a sophisticated web-based application that empowers users to effortlessly search, book, and manage home rentals from diverse providers. Leveraged Python to build a robust and scalable backend infrastructure, implementing advanced algorithms for efficient property matching and availability management. Designed and developed a RESTful API using Python frameworks, facilitating seamless communication between the frontend and backend systems and enabling easy integration with third-party services for features such as payment processing and geolocation.",
+        "Utilized JavaScript to create a dynamic and responsive frontend, ensuring an intuitive and engaging user experience across various devices and screen sizes. Implemented real-time search functionality, interactive booking calendars, and user authentication systems, significantly enhancing the platform's usability and security. The combination of Python backend and JavaScript frontend resulted in a high-performance application capable of handling thousands of concurrent users and processing bookings in real-time. This project showcased proficiency in full-stack development, API design, and the ability to clone and improve upon complex, industry-standard platforms.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "DECAGON",
-      icon: meta,
+      title: "Unix shell",
+      company_name: "A SIMPLE UNIX COMMAND INTERPRETER",
+      icon: tesla,
       iconBg: "#E6DEDD",
-      date: "JUNE 2023 - Present",
+      date: "OCTOBER 2023",
       points: [
-        "Improved user authentication by incorporating email service into an existing Spring Boot application.",
-        "Increased productivity by 40% by following agile methodologies and best practices for product development.",
-        "Managed SQL Server database system to ensure data integrity and security.",
-        //"Participating in code reviews and providing constructive feedback to other developers.",
+        "Engineered a robust and efficient Unix command interpreter from the ground up, leveraging the power and low-level control of the C programming language. This project demonstrated a deep understanding of operating system principles, process management, and system calls. Implemented core shell functionalities including command parsing, execution of both built-in commands and external programs, and management of environment variables, showcasing proficiency in string manipulation, memory management, and file I/O operations in C.",
+        "Developed advanced features such as input/output redirection, piping between processes, and handling of background processes, illustrating a comprehensive grasp of inter-process communication and Unix system programming. Implemented signal handling to manage user interrupts and child processes effectively, ensuring a stable and responsive shell environment. This project not only reinforced fundamental C programming concepts but also provided invaluable insights into the inner workings of operating systems and command-line interfaces, culminating in a fully functional Unix shell capable of running complex command sequences and scripts.",
       ],
     },
   ];
@@ -172,27 +164,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Innocent Udo proved me wrong.",
-      name: "Emmanuel Macaulay",
-      designation: "Stack Associate",
-      company: "DECAGON",
-      image: "https://shorturl.at/rBI03",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Innocent Udo does.",
-      name: "Samuel Olawuyi",
+        "I thought it was impossible to make a website as beautiful as our product, but Mutiso Muli proved me wrong.",
+      name: "Charity Mutua",
       designation: "CEO",
-      company: "SammyWealth",
-      image: "https://shorturl.at/hruy6",
+      company: "ROYAL GEMS",
+      image: "https://res.cloudinary.com/dhbztjzkr/image/upload/v1726058279/319857475_676047390677441_640413757352591758_n_cnexhc.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Pius Owolabi",
-      designation: "Head of Network Operations",
-      company: "Nigerian Civil Aviation Authority",
-      image: "https://shorturl.at/vABJ9",
+        "I've never met a web developer who truly cares about their clients' success like Mutiso Muli does.",
+      name: "Sylvester Mbithi",
+      designation: "Partner",
+      company: "JSL Advocates",
+      image: "https://res.cloudinary.com/dhbztjzkr/image/upload/v1726058552/422319879_10160121676973526_286625482949004160_n_pxen64.jpg",
+    },
+    {
+      testimonial:
+        "Working with Mutiso Muli made me fall in love with Software Engineering.I was impressed with his communication skills and how he manages his repositories",
+      name: "Anthony Muli",
+      designation: "Student",
+      company: "ALX Software Engineering Program",
+      image: "https://res.cloudinary.com/dhbztjzkr/image/upload/v1726058932/454002555_10228804886641734_6663245254098525186_n_f2qa2b.jpg",
     },
   ];
   

@@ -47,12 +47,23 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in Java and
-        JavaScript, and expertise in frameworks like SpringBoot, React, and
-        Security. I'm a quick learner and collaborate closely with clients to
+        I'm a skilled software developer with experience in
+        JavaScript, and expertise in frameworks like NodeJS and React. 
+        I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
+
+      <motion.div
+        variants={fadeIn("up", "spring", 0.5, 1)}
+        className='mt-4 w-full flex justify-center'
+      >
+        <img
+          src="https://res.cloudinary.com/dhbztjzkr/image/upload/v1726054797/1_mnB8fdB1zrXAMBMnDtPWBQ_xpxyzm.webp"
+          alt="About illustration"
+          className='w-full max-w-3xl rounded-lg shadow-lg'
+        />
+      </motion.div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
