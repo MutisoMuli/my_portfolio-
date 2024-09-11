@@ -36,9 +36,9 @@ const Contact = () => {
       'template_g1i67s8',
       {
         from_name: form.name,
-        to_name: 'Innocent Udo',
+        to_name: 'Mutiso Muli',
         from_email: form.email,
-        to_email: 'innocentcharlesudo@gmail.com',
+        to_email: 'mulimutiso525@gmail.com',
         message: form.message,
       },
       'ktM7SWdejptKHGbXC'

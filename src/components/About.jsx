@@ -53,18 +53,7 @@ const About = () => {
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
-
-      <motion.div
-        variants={fadeIn("up", "spring", 0.5, 1)}
-        className='mt-4 w-full flex justify-center'
-      >
-        <img
-          src="https://res.cloudinary.com/dhbztjzkr/image/upload/v1726054797/1_mnB8fdB1zrXAMBMnDtPWBQ_xpxyzm.webp"
-          alt="About illustration"
-          className='w-full max-w-3xl rounded-lg shadow-lg'
-        />
-      </motion.div>
-
+      
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

@@ -165,7 +165,7 @@ import {
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Mutiso Muli proved me wrong.",
-      name: "Charity Mutua",
+      name: "Charity",
       designation: "CEO",
       company: "ROYAL GEMS",
       image: "https://res.cloudinary.com/dhbztjzkr/image/upload/v1726058279/319857475_676047390677441_640413757352591758_n_cnexhc.jpg",
@@ -173,7 +173,7 @@ import {
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Mutiso Muli does.",
-      name: "Sylvester Mbithi",
+      name: "Sylvester",
       designation: "Partner",
       company: "JSL Advocates",
       image: "https://res.cloudinary.com/dhbztjzkr/image/upload/v1726058552/422319879_10160121676973526_286625482949004160_n_pxen64.jpg",
@@ -181,7 +181,7 @@ import {
     {
       testimonial:
         "Working with Mutiso Muli made me fall in love with Software Engineering.I was impressed with his communication skills and how he manages his repositories",
-      name: "Anthony Muli",
+      name: "Anthony",
       designation: "Student",
       company: "ALX Software Engineering Program",
       image: "https://res.cloudinary.com/dhbztjzkr/image/upload/v1726058932/454002555_10228804886641734_6663245254098525186_n_f2qa2b.jpg",
@@ -232,9 +232,9 @@ import {
       source_code_link: "https://github.com/MutisoMuli/AirBnB_clone_v4",
     },
     {
-      name: "Movie Review web Platform",
+      name: "Royal Gems",
       description:
-        "A web aplication that allow users to review trending movies base on genre.",
+        "An e-commerce website for selling jewellery.",
       tags: [
         {
           name: "React",
@@ -245,12 +245,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Java",
+          name: "ExpressJS",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/Innocentsax/FULL_STACK_PROJECTS/tree/main/Movie_Review_Website",
+      source_code_link: "https://github.com/MutisoMuli/royal_gems_v3",
     },
   ];
   
